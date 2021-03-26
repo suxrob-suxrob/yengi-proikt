@@ -1,0 +1,213 @@
+.container {
+    /* position: relative; */
+}
+
+
+.nav { 
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: 10px;
+    left: -20px;
+}
+.tanirovka img {
+    display:inline-block;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    background-color: #000;
+
+}
+.a1 {
+    background-color: rgb(0, 0, 0);
+}
+.tanirovka {
+    height: 800px;
+}
+.tanirovka::before {
+    content:'';
+    background-color: #0B0B0B;
+    opacity: .3;
+    position: absolute;
+    top: 0;
+    range: 0;
+    left: 0;
+    bottom: 0;
+}
+.logo {
+    margin-top: 45px;
+    width: 376px;
+    height: 225px;
+    margin-left: 50px;
+   
+}
+.menyu {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.027);
+    border: 1px solid rgba(0, 0, 0, 0.363);
+    margin-top: 45px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.menyu:hover {
+    box-shadow: 0 0 65px red;
+    transform: translateY(-45px) translateX(-55px);
+    transition:  .8s;
+}
+   
+.menyu_botton,
+.menyu_botton::before,
+.menyu_botton::after {
+    display: inline-block;
+    width:36px;
+    background-color: rgba(0, 0, 0, 0.39);
+    height:2px;
+   
+}
+.menyu_botton::before,
+.menyu_botton::after {
+    content: "";
+    position: absolute;
+}
+
+.menyu_botton::before {
+    top: 16px;
+}
+.menyu_botton::after {
+    bottom: 16px;
+}
+.tex {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    margin-top: 300px;
+    font-size: 80px;
+    left: 55px;
+    color: red;
+    background-color:rgba(105, 90, 205, 0.199);
+    border-radius: 30%;
+    
+}
+.tex:hover {
+    color:lime;
+    background-color: gold;
+    transform: scaleX(65px);
+    transition: all .8s ease;
+}
+.tex2 {
+    position: absolute;
+    margin-top: 500px;
+    font-size: 24px;
+    left: 50px;
+}
+.jerri {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 5px red;
+    text-decoration-color: gold;
+    text-anchor: middle;
+}
+.x1 {
+    display: flex;
+    position: absolute;
+    width: 290px;
+    height: 90px;
+    border: 2px solid rgba(255, 0, 0, 0.781);
+    margin-top: 690px;
+    left: 50px;
+    background-color: #ffffff49;
+    box-shadow: 0 0 100px gold;
+    margin-bottom: 100px;
+   
+}
+.x1 span:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: firebrick;
+    font-size: 24px;
+    margin-left: 50px;
+}
+.x1:hover {
+    background-color: rgb(255, 255, 255);
+    /* text-emphasis-color: unset; */
+    color: green;
+    transform: translateY(-20px);
+    transition: all .5s ease;
+    /* flex-direction: column; */
+    /* padding-bottom: 50px; */
+    font-weight: bold;
+}
+.main_content {
+    background-color: #000;
+    overflow: hidden;
+    padding top: 25px;
+}
+.haraktiriska {
+    margin-top: 105px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.haraktiriskalar {
+    color: #ffff;
+    text-align: center;
+}
+.haraktiriskalar p:first-child {
+    font-size: 24px;
+    margin-bottom: 39px;
+}
+.haraktiriskalar p:nth-child(2) {
+    font-size: 96px;
+    position: relative;
+    margin-bottom: 28px;
+    white-space: nowrap;
+}
+.haraktiriskalar p > span {
+    font-size: 24px;
+    margin-left: -30px;
+}
+.haraktiriskalar p:nth-child(3) {
+    font-size: 24p;
+    color: red;
+}
+.content_img {
+  width: 1200px;
+  height: 400px;
+  object-fit: cover;
+  margin-bottom: 100px;
+  box-shadow: 0 0 65px gold;
+}
+.spa {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+}
+.spa img {
+    width: 48%;
+    object-fit: cover;
+    box-shadow: 0 0 65px red;
+    margin-right: 90px;
+    
+}
+.spa_content p:first-child {
+    font-size: 46px;
+    color:red;
+    margin-left: -10px;
+}
+.spa_content p:last-child {
+    font-size: 24px;
+    color:#fff;
+    margin-left: -10px;
+}
